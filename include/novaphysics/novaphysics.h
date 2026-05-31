@@ -7,7 +7,7 @@
   https://github.com/kadir014/nova-physics
 
 */
-
+extern "C" {
 #ifndef NOVAPHYSICS_H
 #define NOVAPHYSICS_H
 
@@ -47,3 +47,5 @@
 
 
 #endif
+
+}
