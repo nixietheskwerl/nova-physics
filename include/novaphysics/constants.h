@@ -82,7 +82,7 @@
 
 
 // Initial size for the broadphase memory pool. (16B * 10000 =~ 160KB)
-#define NV_BPH_POOL_INITIAL_SIZE 1000
+#define NV_BPH_POOL_INITIAL_SIZE 100
 
 
 #endif
