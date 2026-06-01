@@ -59,7 +59,7 @@
 
 // Initial size for flat node array for the BVH-tree.
 // 64B * 10000 =~ 625KB
-#define NV_BVH_NODES_INITIAL_SIZE 10000
+#define NV_BVH_NODES_INITIAL_SIZE 10
 
 
 // Gravitational constant. G = 6.6743 * 10^-11
@@ -82,7 +82,7 @@
 
 
 // Initial size for the broadphase memory pool. (16B * 10000 =~ 160KB)
-#define NV_BPH_POOL_INITIAL_SIZE 10000
+#define NV_BPH_POOL_INITIAL_SIZE 1000
 
 
 #endif
